@@ -1,14 +1,21 @@
 # Have You Reddit?
 
-A lightweight Reddit browsing client built with React and Redux.
-The application allows users to browse popular posts, explore individual subreddits, search Reddit content, and view nested comment threads.
+A lightweight Reddit-style browsing client built with React and Redux, running entirely on bundled synthetic demo data (see below) rather than live Reddit content.
+The application allows users to browse a sample "popular" feed, explore a curated set of sample subreddits, search sample post content, and view nested comment threads.
 
 This project focuses on modern frontend architecture using Redux Toolkit, client-side routing, and responsive design.
 
 ## Live Application
 
-Deployed on Netlify:
-https://your-netlify-url-here.netlify.app
+Not yet deployed — the repository is deploy-ready (see `netlify.toml`), but the one-time step of connecting this GitHub repo to a Netlify site via the Netlify dashboard hasn't been done yet. This line will be replaced with the live URL once that's complete.
+
+---
+
+# About the Data
+
+This app doesn't call Reddit's API. Two attempts at live server-side Reddit access were tried and abandoned (see `specs/002-netlify-production-deploy/` and `specs/003-reddit-oauth-access/` for the full history): Reddit blocks unauthenticated requests from datacenter/server IPs outright, and Reddit no longer offers self-serve OAuth app registration for an independently-hosted client like this one — new registrations are funneled toward Devvit, Reddit's in-platform app hosting, which doesn't fit a project meant to showcase a Netlify deployment.
+
+Instead, the app ships with a small set of synthetic, Reddit-shaped sample content (`src/data/demoData.js`) — invented posts, comments, and subreddits, not scraped from real Reddit. No configuration, credentials, or setup steps are needed; `npm run dev` alone is fully functional.
 
 ---
 
