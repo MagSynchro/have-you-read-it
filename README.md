@@ -7,7 +7,8 @@ This project focuses on modern frontend architecture using Redux Toolkit, client
 
 ## Live Application
 
-Not yet deployed — the repository is deploy-ready (see `netlify.toml`), but the one-time step of connecting this GitHub repo to a Netlify site via the Netlify dashboard hasn't been done yet. This line will be replaced with the live URL once that's complete.
+Deployed on Netlify:
+https://have-you-read-it.netlify.app
 
 ---
 
