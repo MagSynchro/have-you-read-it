@@ -38,7 +38,7 @@ export default function Search(){
             <Breadcrumbs path={breadcrumbPath} />
 
             {posts.length === 0 ? (
-                <p>No rsults found.</p>
+                <p>No results found.</p>
             ) : (
                 posts.map((post) => (
                     <PostCard key={post.id} post={post} />

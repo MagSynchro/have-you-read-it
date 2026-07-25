@@ -25,7 +25,7 @@ Instead, the app ships with a small set of synthetic, Reddit-shaped sample conte
 * Redux Toolkit
 * React Router
 * Vite
-* Jest
+* Vitest
 * React Testing Library
 * Netlify (Deployment)
 
@@ -126,7 +126,7 @@ Home>r/SubReddit>Post Title>
 
 # Testing
 
-Unit tests were written using **Jest** and **React Testing Library** to validate core components and application behavior.
+Unit tests were written using **Vitest** and **React Testing Library** to validate core components and application behavior.
 
 ---
 
